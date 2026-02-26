@@ -4,7 +4,7 @@ document.body.appendChild(getSumBtn);
 getSumBtn.addEventListener("click", getSum);
 function getSum(){
 	let totalsum=0;
- const prices=document.querySelectorAll(".price");
+ const prices=document.querySelectorAll(".prices");
 	prices.forEach(price=>{
 		totalsum= totalsum+Number(price.textContent);
 	});
