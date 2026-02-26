@@ -11,7 +11,7 @@ function getSum(){
 	const table=document.getElementsByTagName("table")[0];
 	const newRow=document.createElement("tr");
 	const newCell=document.createElement("td");
-
+	newCell.id="ans";
 	newCell.textContent=totalsum;
 	newRow.appendChild(newCell);
 	table.appendChild(newRow);
